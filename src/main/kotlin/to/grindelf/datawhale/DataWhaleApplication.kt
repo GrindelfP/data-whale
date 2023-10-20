@@ -27,7 +27,7 @@ class DataWhaleApplication : Application() {
     }
 
     override fun start(stage: Stage) {
-        val fxmlLoader = FXMLLoader(DataWhaleApplication::class.java.getResource("hello-view.fxml"))
+        val fxmlLoader = FXMLLoader(DataWhaleApplication::class.java.getResource("dw-main-view.fxml"))
         val scene = Scene(fxmlLoader.load(), WIDTH, HEIGHT)
         stage.title = TITLE
         stage.scene = scene
