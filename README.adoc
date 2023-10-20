@@ -1,9 +1,11 @@
 = Data Whale Project =
 
+
 == Description ==
 This project is a simple data analise library with a simple JavaFX GUI. The library can be used standalone or with provided GUI. The library works with data zipped in .zip archives.
 
 The license of this project is available in link:LICENSE[] file. Shortly, it is the MIT license, which allows you to use this project in any way you want, except for claiming it as your own.
+
 
 == How to use (GUI edition) [needs updates] ==
 If you want to use GUI of DataWhale follow these steps:
@@ -17,15 +19,19 @@ NOTE: The table can be divided into different files, but they must be in the sam
 
 NOTE: The data files should be in .csv format.
 
+
 == How to use (as programmer) [needs updates] ==
 
 1. Download the library
 2. Add the library to your project, but placing its package in your project's package
-3. Use DataWhale class to work with library.
+3. Use the filemanager and datawhale packages to work with library.
 
-The exact ways to use the library you can learn from the documentation section below.
+The exact ways to use the library you can learn from the <<documentation>> section below.
 
-== Documentation of the library [TODO]  ==
+NOTE: If your data is stored in a single .csv file, you can skip using the filemanager package of the library and use the datawhale directly. Also, you can use your own code to transcribe the data into the .csv format and then use the library.
+
+
+== Documentation of the library [TODO] [[documentation, documentation]]  ==
 
 === Library [TODO] ===
 
