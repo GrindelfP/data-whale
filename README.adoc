@@ -3,7 +3,7 @@
 == Description ==
 This project is a simple data analise library with a simple JavaFX GUI. The library can be used standalone or with provided GUI. The library works with data zipped in .zip archives.
 
-The license of this project is available in [LICENCE](LICENSE) file. Shortly, it is the MIT license, which allows you to use this project in any way you want, except for claiming it as your own.
+The license of this project is available in link:LICENSE[] file. Shortly, it is the MIT license, which allows you to use this project in any way you want, except for claiming it as your own.
 
 == How to use (GUI edition) [needs updates] ==
 If you want to use GUI of DataWhale follow these steps:
