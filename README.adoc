@@ -3,18 +3,30 @@
 == Description ==
 This project is a simple data analise library with a simple JavaFX GUI. The library can be used standalone or with provided GUI. The library works with data zipped in .zip archives.
 
+The license of this project is available in [LICENCE](LICENSE) file. Shortly, it is the MIT license, which allows you to use this project in any way you want, except for claiming it as your own.
+
 == How to use (GUI edition) [needs updates] ==
 If you want to use GUI of DataWhale follow these steps:
 
 1. Download and run the application
-2. Provide absolute path to the archive with data (if the data is stored not in an archive check the checkbox "Data is not zipped")
+2. Provide absolute path to the archive with data (if the data is stored not in an archive check the checkbox "Data is not zipped").
 3. Click "Proceed" button
-4. You will be presented with dataset *!!! specify !!!*
+4. You will be presented with dataset analysis results, which will return user the top entries by each column.
+
+NOTE: The table can be divided into different files, but they must be in the same directory. The tables in the files should contain the same entry headers but can contain different columns. All of these will be merged by entry headers.
+
+NOTE: The data files should be in .csv format.
 
 == How to use (as programmer) [needs updates] ==
 
 1. Download the library
 2. Add the library to your project, but placing its package in your project's package
-3. Use DataWhale class to work with library
+3. Use DataWhale class to work with library.
+
+The exact ways to use the library you can learn from the documentation section below.
 
 == Documentation of the library [TODO]  ==
+
+=== Library [TODO] ===
+
+=== GUI [TODO] ===
